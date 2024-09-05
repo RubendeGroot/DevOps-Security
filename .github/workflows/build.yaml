@@ -30,7 +30,6 @@ jobs:
             rubendg02/508593-devops-security:latest
   test:
     name: Test
-    # needs: [ scan ]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
