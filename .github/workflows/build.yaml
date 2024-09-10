@@ -30,8 +30,8 @@ jobs:
             rubendg02/508593-devops-security:latest
   test:
     name: Test
+    needs: [ scan ]
     runs-on: ubuntu-latest
-    needs: [ build ]
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v3
