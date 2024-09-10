@@ -24,4 +24,3 @@ spec:
           - containerPort: 5000
       imagePullSecrets:
         - name: regcred
-         
