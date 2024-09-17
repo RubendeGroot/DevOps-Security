@@ -45,7 +45,7 @@ jobs:
           command: cves
           image: rubendg02/508593-devops-security:latest
           # only-fixed: true
-          only-severities: critical,high
+          #only-severities: critical,high
           ignore-base: false
           ignore-unchanged: false
           write-comment: true
