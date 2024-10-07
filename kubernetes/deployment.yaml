@@ -22,8 +22,5 @@ spec:
         imagePullPolicy: Always
         ports:
           - containerPort: 5000
-        securityContext:
-          # runAsNonRoot: true
-          runAsUser: 1000
       imagePullSecrets:
         - name: regcred
